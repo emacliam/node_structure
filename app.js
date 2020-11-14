@@ -1,9 +1,13 @@
 /* app entry points */
-const http = require('http');
-const app = require('./app');
 
-const port = process.env.PORT || 3000;
+const express = require('express');
+const app = express();
 
-const server = http.createServer(app);
+// routes
+app.use((req, res, next) => {
+    res.status(200).json({
+        message: 'Hello world!!!'
+    });
+});
 
-server.listen(port);
+module.exports = app;
