@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_structure",
+  "version": "1.0.0",
+  "description": "folder structure",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emacliam/node_structure.git"
+  },
+  "author": "panashe mushinyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emacliam/node_structure/issues"
+  },
+  "homepage": "https://github.com/emacliam/node_structure#readme"
+}
