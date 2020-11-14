@@ -1,6 +1,7 @@
 /* server configuration */
 const http = require('http');
 const app = require('./app');
+const { port } = require('./config');
 
 const port = process.env.PORT || 3000;
 
